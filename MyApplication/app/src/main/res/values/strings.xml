@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="increasebtn">Increase</string>
+    <string name="decreasebtn">Decrease</string>
+    <string name="resetbtn">Reset</string>
+    <string name="Text">1</string>
+</resources>
