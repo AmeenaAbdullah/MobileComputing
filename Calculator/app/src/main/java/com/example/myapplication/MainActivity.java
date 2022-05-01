@@ -53,56 +53,56 @@ public class MainActivity extends AppCompatActivity {
         three.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                display.setText("1");
+                display.setText("3");
             }
 
         });
         four.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                display.setText("1");
+                display.setText("4");
             }
 
         });
         five.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                display.setText("1");
+                display.setText("5");
             }
 
         });
         six.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                display.setText("1");
+                display.setText("6");
             }
 
         });
         seven.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                display.setText("1");
+                display.setText("7");
             }
 
         });
         eight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                display.setText("1");
+                display.setText("8");
             }
 
         });
         nine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                display.setText("1");
+                display.setText("9");
             }
 
         });
         zero.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                display.setText("1");
+                display.setText("0");
             }
 
         });
