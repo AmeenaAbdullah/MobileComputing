@@ -39,10 +39,73 @@ public class MainActivity extends AppCompatActivity {
          one.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
-
+             display.setText("1");
              }
          });
+        two.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("2");
+            }
 
-      
+        });
+
+        three.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("1");
+            }
+
+        });
+        four.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("1");
+            }
+
+        });
+        five.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("1");
+            }
+
+        });
+        six.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("1");
+            }
+
+        });
+        seven.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("1");
+            }
+
+        });
+        eight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("1");
+            }
+
+        });
+        nine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("1");
+            }
+
+        });
+        zero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                display.setText("1");
+            }
+
+        });
+
     }
 }
