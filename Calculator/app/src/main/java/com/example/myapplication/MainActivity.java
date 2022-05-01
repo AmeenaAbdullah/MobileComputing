@@ -36,6 +36,13 @@ public class MainActivity extends AppCompatActivity {
         mul=findViewById(R.id.mul);
         div=findViewById(R.id.div);
 
+         one.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
 
+             }
+         });
+
+      
     }
 }
