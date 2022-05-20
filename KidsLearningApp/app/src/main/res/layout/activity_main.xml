@@ -9,26 +9,35 @@
 
     <Button
         android:id="@+id/learning"
-        android:layout_width="148dp"
-        android:layout_height="71dp"
+        android:layout_width="226dp"
+        android:layout_height="102dp"
+        android:background="@drawable/buttons"
         android:text="Learning"
+        android:textColor="#A62F2F"
         android:textCursorDrawable="@drawable/buttons"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.384" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="141dp"
-        android:layout_height="47dp"
+        android:id="@+id/exam"
+        android:layout_width="204dp"
+        android:layout_height="99dp"
+        android:background="@drawable/buttons"
+
         android:text="Exam"
+        android:textColor="#A62F2F"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.548" />
+        app:layout_constraintVertical_bias="0.605" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
