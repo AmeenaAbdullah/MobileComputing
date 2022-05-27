@@ -29,7 +29,7 @@
                 android:layout_height="70dp"
                 android:layout_margin="1px"
                 android:layout_weight="1"
-                android:background="@drawable/circle"
+                android:theme="@style/Theme.AppCompat.NoActionBar"
                 android:text="@string/one"
                 android:textSize="24sp" />
 

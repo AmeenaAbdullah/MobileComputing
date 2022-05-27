@@ -78,7 +78,7 @@ public class MainActivity5 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog,
                                         int which)
                     {
-                        Intent send = new Intent(MainActivity5.this, MainActivity4.class);
+                        Intent send = new Intent(MainActivity5.this, ExamM3.class);
                         startActivity(send);
                     }
                 });

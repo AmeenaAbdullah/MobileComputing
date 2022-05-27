@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent send = new Intent(MainActivity.this, MainActivity4.class);
+                send.putExtra("count","0");
                 startActivity(send);
             }
         });
