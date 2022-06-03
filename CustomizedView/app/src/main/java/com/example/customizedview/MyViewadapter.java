@@ -28,7 +28,7 @@ public class MyViewadapter extends ArrayAdapter<Student> {
         Name.setText(s.Name);
         Id.setText(s.Id);
         i.setImageResource(s.imgId);
-        return super.getView(position, convertView, parent);
+        return convertView;
     }
 
     public MyViewadapter(@NonNull Context context, ArrayList<Student> studentArrayList) {
