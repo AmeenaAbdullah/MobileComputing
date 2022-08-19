@@ -19,15 +19,15 @@ public class MyViewadapter extends ArrayAdapter<Student> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        Student s= getItem(position);
-        convertView = LayoutInflater.from(getContext()).inflate(R.layout.customizedview, parent, false);
-        TextView Name=convertView.findViewById(R.id.textView2);
-        TextView Id=convertView.findViewById(R.id.id2);
-        ImageView i=convertView.findViewById(R.id.imageView2);
+        Student myclass = getItem(position);
+        convertView = LayoutInflater.from(getContext()).inflate(R.layout.customizedview,parent,false);
+        ImageView imageview = convertView.findViewById(R.id.imageheading);
+        TextView fruittv = convertView.findViewById(R.id.fruitnames);
+        TextView subtv = convertView.findViewById(R.id.submsg);
+        imageview.setImageResource(myclass.imageid);
+        fruittv.setText(myclass.heading);
+        subtv.setText(myclass.subheading);
 
-        Name.setText(s.Name);
-        Id.setText(s.Id);
-        i.setImageResource(s.imgId);
         return convertView;
     }
 

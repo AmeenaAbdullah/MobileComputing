@@ -16,28 +16,25 @@ import android.widget.TextView;
 import java.util.List;
 
 public class Student {
-
-    public String Name;
-    public String Id;
-    public int imgId;
-
-    public Student(String name, String id, int imgId) {
-        Name = name;
-        Id = id;
-        this.imgId = imgId;
+    String heading;
+    String subheading;
+    int imageid;
+    public Student(String heading, String subheading, int imageid) {
+        this.heading = heading;
+        this.subheading = subheading;
+        this.imageid = imageid;
     }
 
-    public String getName() {
-        return Name;
+    public String getHeading() {
+        return heading;
     }
 
-    public String getId() {
-        return Id;
+    public String getSubheading() {
+        return subheading;
     }
 
-    public int getImgId() {
-        return imgId;
+    public int getImageid() {
+        return imageid;
     }
-
 
 }
